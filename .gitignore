@@ -11,13 +11,13 @@ dataset/cover/
 *.zip
 
 # Image files
-*.pgm
-*.bmp
-*.png
-*.jpg
-*.jpeg
-*.tiff
-*.tif
+# *.pgm
+# *.bmp
+# *.png
+# *.jpg
+# *.jpeg
+# *.tiff
+# *.tif
 
 # Model checkpoints and weights
 checkpoints/
