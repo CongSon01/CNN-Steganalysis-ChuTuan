@@ -1,0 +1,80 @@
+# =============================================================================
+# XuNet Steganalysis Project - GitIgnore
+# =============================================================================
+
+# Dataset folders (heavy data)
+BOWS-2/
+BOWS-2-*/
+raw_cover/
+cover/
+dataset/cover/
+data/
+*.zip
+
+# Image files
+*.pgm
+*.bmp
+*.png
+*.jpg
+*.jpeg
+*.tiff
+*.tif
+
+# Model checkpoints and weights
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pkl
+
+# Training logs
+*.log
+logs/
+
+# Python cache
+*/*__pycache__/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Python environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Large archives
+*.tar.gz
+*.rar
+*.7z
+
+# Specific project files
+BOWS-2-20250822T084153Z-1-001.zip
+cover.zip
+xunet.png
+
+# Keep important files
+!requirements.txt
+!README.md
+!*.py
+!opts/
+!model/
+!utils/
