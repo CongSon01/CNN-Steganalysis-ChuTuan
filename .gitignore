@@ -8,7 +8,6 @@ BOWS-2-*/
 raw_cover/
 cover/
 dataset/cover/
-data/
 *.zip
 
 # Image files
